@@ -1,10 +1,10 @@
-package com.russ4stall.critter.actions;
+package com.github.russ4stall.actions;
 
+import com.github.russ4stall.db.DbiFactory;
 import com.opensymphony.xwork2.ActionSupport;
-import com.russ4stall.critter.core.User;
-import com.russ4stall.critter.db.DbiFactory;
-import com.russ4stall.critter.db.UserDao;
-import com.russ4stall.critter.utils.LoginNotRequired;
+import com.github.russ4stall.core.User;
+import com.github.russ4stall.db.UserDao;
+import com.github.russ4stall.utils.LoginNotRequired;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.validator.routines.EmailValidator;
 import org.apache.struts2.convention.annotation.Result;

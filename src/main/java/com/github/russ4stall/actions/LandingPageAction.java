@@ -1,4 +1,4 @@
-package com.russ4stall.critter.actions;
+package com.github.russ4stall.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.interceptor.SessionAware;

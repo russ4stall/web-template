@@ -1,7 +1,7 @@
-package com.russ4stall.critter.actions;
+package com.github.russ4stall.actions;
 
+import com.github.russ4stall.utils.LoginNotRequired;
 import com.opensymphony.xwork2.ActionSupport;
-import com.russ4stall.critter.utils.LoginNotRequired;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.interceptor.ServletResponseAware;
 import org.apache.struts2.interceptor.SessionAware;
@@ -17,9 +17,7 @@ public class LogoutAction extends ActionSupport implements SessionAware, Servlet
 
     public String input() {
         session.remove("user");
-        //Cookie cookie = new Cookie("remember-me", "");
-        //cookie.setMaxAge(0);
-        //response.addCookie(cookie);
+
         return SUCCESS;
     }
 

@@ -1,52 +1,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ taglib prefix="app" tagdir="/WEB-INF/tags" %>
 
 <%--@elvariable id="action" type="com.russ4stall.jorb.actions.RegisterAction"--%>
 
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-    <style>
-        body {
-            margin-top: 40px;
-            background-color: #95E4FC;
-        }
-
-        .center-block {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .user-form {
-            max-width: 300px;
-        }
-
-        .title {
-            width: 140px;
-            margin-bottom: 40px;
-        }
-
-        .btn-primary {
-            background-color: #FCAD95;
-            border: 1px solid #FF906E;
-        }
-
-    </style>
-
+<app:head-common title="Register"/>
 </head>
 <body>
 
 <div class="container">
     <div class="row">
         <div class="center-block title" >
-            <h2>CRITTER</h2>
+            <h2>Register</h2>
         </div>
     </div>
 

@@ -1,4 +1,4 @@
-package com.russ4stall.critter.utils;
+package com.github.russ4stall.utils;
 
 import com.opensymphony.xwork2.config.ConfigurationManager;
 import org.apache.struts2.dispatcher.mapper.ActionMapping;
@@ -10,6 +10,10 @@ import static org.apache.commons.lang3.StringUtils.isEmpty;
 
 /**
  * @author Russ Forstall
+ * credit Steven Benitez
+ *
+ * This makes all GET requests defualt to the input method
+ * and all other requests default to the execute method
  */
 public class CustomDefaultActionMapper extends DefaultActionMapper {
     public static final String DEFAULT_GET_METHOD = "input";

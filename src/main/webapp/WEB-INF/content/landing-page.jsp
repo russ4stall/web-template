@@ -1,17 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: russellf
-  Date: 10/24/2014
-  Time: 3:02 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="app" tagdir="/WEB-INF/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+<app:head-common title="Home"/>
 
     <title></title>
 </head>
 <body>
-
+<a class="btn btn-default btn-block btn-lg" href="${pageContext.request.contextPath}/logout">LOGOUT</a>
 </body>
 </html>

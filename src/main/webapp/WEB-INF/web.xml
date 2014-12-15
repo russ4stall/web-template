@@ -8,7 +8,7 @@
 	<display-name>Critter-Web</display-name>
 
     <listener>
-        <listener-class>com.russ4stall.critter.utils.InitListener</listener-class>
+        <listener-class>com.github.russ4stall.utils.InitListener</listener-class>
     </listener>
 
     <filter>

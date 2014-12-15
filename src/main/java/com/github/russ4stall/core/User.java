@@ -1,4 +1,4 @@
-package com.russ4stall.critter.core;
+package com.github.russ4stall.core;
 
 /**
  * Date: 10/15/14

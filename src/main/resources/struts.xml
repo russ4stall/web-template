@@ -5,7 +5,7 @@
 
 <struts>
 
-    <bean type="org.apache.struts2.dispatcher.mapper.ActionMapper" name="customDefaultMapper" class="com.russ4stall.critter.utils.CustomDefaultActionMapper" />
+    <bean type="org.apache.struts2.dispatcher.mapper.ActionMapper" name="customDefaultMapper" class="com.github.russ4stall.utils.CustomDefaultActionMapper" />
     <constant name="struts.mapper.class" value="customDefaultMapper" />
 
     <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
@@ -14,7 +14,7 @@
 
     <package name="default" namespace="/" extends="convention-default">
         <interceptors>
-            <interceptor name="loginCheckInterceptor" class="com.russ4stall.critter.utils.LoginCheckInterceptor"/>
+            <interceptor name="loginCheckInterceptor" class="com.github.russ4stall.utils.LoginCheckInterceptor"/>
             <interceptor-stack name="appStack">
                 <interceptor-ref name="exception"/>
                 <interceptor-ref name="alias"/>

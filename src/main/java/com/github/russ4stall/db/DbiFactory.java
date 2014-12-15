@@ -1,4 +1,4 @@
-package com.russ4stall.critter.db;
+package com.github.russ4stall.db;
 
 import org.skife.jdbi.v2.DBI;
 
@@ -12,7 +12,7 @@ public class DbiFactory {
     private DBI dbi;
 
     public DbiFactory() {
-        dbi = new DBI("jdbc:mysql://localhost:3306/critter", "critter", "critter");
+        dbi = new DBI("jdbc:mysql://localhost:3306/webdb", "webdb", "webdb");
     }
 
     public DBI getDbi() {

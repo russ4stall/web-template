@@ -1,6 +1,6 @@
-package com.russ4stall.critter.db;
+package com.github.russ4stall.db;
 
-import com.russ4stall.critter.core.User;
+import com.github.russ4stall.core.User;
 import org.skife.jdbi.v2.sqlobject.Bind;
 import org.skife.jdbi.v2.sqlobject.GetGeneratedKeys;
 import org.skife.jdbi.v2.sqlobject.SqlQuery;
