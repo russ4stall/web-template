@@ -17,15 +17,16 @@
 
     <div class="container">
         <div class="row">
-            <div class="center-block">
-                 <h2>Log In</h2>
+            <div>
+                 <h2 class="text-center">Log In</h2>
             </div>
         </div>
 
         <div class="center-block user-form">
             <c:forEach items="${action.fieldErrors}" var="error">
-                <span class="text-danger">${error.value}</span><br/>
+                <li class="text-danger"><strong><c:out value="${error.value}"/></strong></li>
             </c:forEach>
+            <br/>
             <form role="form" action="${pageContext.request.contextPath}/login" method="post">
                 <div class="form-group">
                     <input class="form-control" id="email-field" name="email" type="email" value="${action.email}" placeholder="EMAIL">

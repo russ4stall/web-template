@@ -12,8 +12,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="center-block title" >
-            <h2>Register</h2>
+        <div>
+            <h2 class="text-center">Register</h2>
         </div>
     </div>
 
@@ -21,6 +21,7 @@
         <c:forEach items="${action.fieldErrors}" var="error">
             <span class="text-danger">${error.value}</span><br/>
         </c:forEach>
+        <br/>
         <form role="form" action="${pageContext.request.contextPath}/register" method="post">
             <div class="form-group">
                 <input class="form-control" id="name-field" name="name" type="text" value="${action.name}" placeholder="NAME">
@@ -35,7 +36,7 @@
                 <input class="form-control" id="confirm-password-field" name="confirmPassword" type="password" placeholder="RETYPE PASSWORD">
             </div>
             <button type="submit" class="btn btn-primary btn-block btn-lg">SUBMIT</button>
-            <a class="btn btn-danger btn-block btn-lg" href="${pageContext.request.contextPath}/login">CANCEL</a>
+            <a class="btn btn-default btn-block btn-lg" href="${pageContext.request.contextPath}/login">CANCEL</a>
 
         </form>
     </div>

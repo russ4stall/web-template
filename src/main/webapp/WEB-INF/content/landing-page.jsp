@@ -4,9 +4,14 @@
 <head>
 <app:head-common title="Home"/>
 
-    <title></title>
 </head>
 <body>
-<a class="btn btn-default btn-block btn-lg" href="${pageContext.request.contextPath}/logout">LOGOUT</a>
+
+<div class="container">
+    <div class="row">
+        <a class="btn btn-default btn-block btn-lg" href="${pageContext.request.contextPath}/logout">LOGOUT</a>
+    </div>
+</div>
+
 </body>
 </html>
