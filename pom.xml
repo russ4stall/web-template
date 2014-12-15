@@ -6,7 +6,7 @@
     <artifactId>web-template</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>critter-web</name>
+    <name>web-template</name>
 	<description>Struts 2 Starter</description>
 
     <properties>
