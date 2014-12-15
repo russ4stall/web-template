@@ -5,5 +5,6 @@ Login and Register pages are already created.
 
 - Struts 2 (convention plugin)
 - JDBI
+- Flyway (for schema migrations)
 - Bootstrap
 - JQuery
